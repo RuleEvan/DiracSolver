@@ -1,0 +1,62 @@
+#ifndef AV18_H
+#define AV18_H
+#include "brody.h"
+double woods_saxon(double r);
+double t_mu(double r);
+double v_av18_c_01_pp(double r);
+double v_av18_c_01_np(double r);
+double v_av18_c_01_nn(double r);
+double v_av18_l2_01(double r);
+double v_av18_c_00(double r);
+double v_av18_l2_00(double r);
+double v_av18_c_11_pp(double r);
+double v_av18_c_11_np(double r);
+double v_av18_c_11_nn(double r);
+double v_av18_l2_11(double r);
+double v_av18_t_11(double r);
+double v_av18_ls_11(double r);
+double v_av18_ls2_11(double r);
+double v_av18_c_10(double r);
+double v_av18_l2_10(double r);
+double v_av18_t_10(double r);
+double v_av18_ls_10(double r);
+double v_av18_ls2_10(double r);
+double v_av18_ci_11(double r);
+double v_av18_ci_01(double r);
+double v_av18_c(double r);
+double v_av18_tau(double r);
+double v_av18_sigma(double r);
+double v_av18_sigma_tau(double r);
+double v_av18_t(double r);
+double v_av18_ls(double r);
+double v_av18_ls2(double r);
+double v_av18_t_tau(double r);
+double v_av18_l2(double r);
+double v_av18_l2_tau(double r);
+double v_av18_l2_sigma(double r);
+double v_av18_l2_sigma_tau(double r);
+double v_av18_ls_tau(double r);
+double v_av18_ls2_tau(double r);
+double v_av18_cd_11(double r);
+double v_av18_cd_01(double r);
+double v_av18_cap_t(double r);
+double v_av18_sigma_cap_t(double r);
+double v_av18_t_cap_t(double r);
+double v_av18_ca_11(double r);
+double v_av18_ca_01(double r);
+double v_av18_tau_z(double r);
+double v_av18_sigma_tau_z(double r);
+double matrix_element_sigma_dot_sigma(double s, double ms, double t, double sp, double msp, double tp);
+double compute_matrix_element_av18(int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_c(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_tau(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_sigma(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_sigma_tau(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_ls(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_ls_tau(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_l2(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_l2_tau(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_l2_sigma(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+double compute_matrix_element_l2_sigma_tau(int iv, int n1p, double j1p, int n2p, double j2p, int j12p, int t12p, int n1, double j1, int n2, double j2, int j12, int t12);
+#endif
+
