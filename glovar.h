@@ -17,13 +17,13 @@
 #define A_NUC 76 // Atomic Mass
 #define A_FACTOR 9.155 // [MeV] Average nuclear excitation energy
 #define B_OSC 2.4912
-#define Z_ATOM 1 // Atomic Number
+#define Z_ATOM 1.0 // Atomic Number
 
 // Technical parameters
 #define COR_FAC 0
 
 // Physical constants
-#define ALPHA_FS 0.007297352
+#define ALPHA_FS 0.0072973525693
 #define R_NUC 1.2 // [fm]
 #define M_ELECTRON 0.510998950 // [MeV]
 #define M_NEUTRON 939.57 // [MeV]
